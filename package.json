@@ -1,5 +1,5 @@
 {
-  "name": "vison-ml-forecast",
+  "name": "vision-forecast-web-addin-js",
   "description": "",
   "author": "",
   "version": "0.1.0",
@@ -13,7 +13,8 @@
     "@microsoft/office-js-helpers": "^1.0.1",
     "babel-polyfill": "^6.26.0",
     "jquery": "^3.1.1",
-    "office-ui-fabric-js": "^1.3.0"
+    "office-ui-fabric-js": "^1.3.0",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "@types/jquery": "^3.3.29",

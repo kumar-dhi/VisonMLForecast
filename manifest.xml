@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OfficeApp
-          xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
-          xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
-          xsi:type="TaskPaneApp">
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" 
+  xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
 
   <!-- Begin Basic Settings: Add-in metadata, used for all versions of Office unless override provided. -->
 
   <!-- IMPORTANT! Id must be unique for your add-in, if you reuse this manifest ensure that you change this id to a new GUID. -->
-  <Id>27aeb580-7eab-4d69-8622-8e87608c051e</Id>
+  <Id>cf2abbee-7cb8-407c-8521-70b572313082</Id>
 
   <!--Version. Updates from the store only get triggered if there is a version change. -->
   <Version>1.0.0.0</Version>
-  <ProviderName>[Provider name]</ProviderName>
-  <DefaultLocale>en-US</DefaultLocale>
+  <ProviderName>Decision Analytics</ProviderName>
+  <DefaultLocale>en-AU</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
-  <DisplayName DefaultValue="VisonMLForecast" />
-  <Description DefaultValue="[Workbook Add-in description]"/>
+  <DisplayName DefaultValue="VisionForecastWebAddinJs" />
+  <Description DefaultValue="Vision Forecast Algorithm Bridge"/>
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
   <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png" />
