@@ -127,7 +127,7 @@
 
                         //var headers = { 'Content-Type': 'application/json', 'Authorization': ('Bearer ' + api_key) };
 
-
+                        /*
                         var xhttp = new XMLHttpRequest();
                         xhttp.onreadystatechange = function () {
                             console.log('Here', this);
@@ -145,7 +145,9 @@
 
                         //var mx = xhttp.responseText();
 
+                        */
 
+                        // Example from Azure
                         // Get data from a single column
                         var columnRange = historyTable.columns.getItem(partName).getDataBodyRange().load("values");
                         //return ctx.sync()
